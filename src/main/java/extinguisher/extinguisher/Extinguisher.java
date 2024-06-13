@@ -106,10 +106,10 @@ public final class Extinguisher extends JavaPlugin implements Listener, CommandE
             double pitchAngle = Math.PI * 2D * (location.getPitch() + 180D) / 360D;
 
             Location spawnLocation = new Location(
-                    world,
-                    location.getX() + 7 * Math.sin(yawAngle),
-                    location.getY() + 7 * Math.sin(pitchAngle),
-                    location.getZ() - 7 * Math.cos(yawAngle)
+                world,
+                location.getX() + 7 * Math.sin(yawAngle),
+                location.getY() + 7 * Math.sin(pitchAngle),
+                location.getZ() - 7 * Math.cos(yawAngle)
             );
 
             int x = (int)spawnLocation.getX();
