@@ -1,0 +1,4 @@
+name: Extinguisher
+version: '${project.version}'
+main: extinguisher.extinguisher.Extinguisher
+api-version: 1.20
